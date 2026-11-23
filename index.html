@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew — Coffee Shop</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Brew Logo"> <span>Brew</span>
+        </div>
+
+        <nav class="navigation">
+            <a href="#menu">Меню</a>
+            <a href="#cappuccino">Капучино</a>
+            <a href="#about">О нас</a>
+        </nav>
+
+        <a href="#menu" class="header-button">Наше меню</a>
+    </header>
+
+    <main>
+
+        <section class="menu-section" id="menu">
+
+            <div class="section-heading">
+                
+                <h1>Выбери свой любимый кофе</h1>
+                <p>Вкус, аромат и настроение в каждой чашке.</p>
+            </div>
+
+            <div class="category-list">
+                <button class="category active">Все напитки</button>
+                <button class="category">Кофе</button>
+                <button class="category">Молочные</button>
+                <button class="category">Холодные</button>
+            </div>
+
+            <div class="drink-grid">
+
+                <article class="drink-card">
+                    <div class="drink-image coffee-one"></div>
+                    <div class="drink-info">
+                        <h3>Капучино</h3>
+                        <p>Эспрессо, молоко, нежная пенка</p>
+                        <div class="drink-bottom">
+                            <span>1 200 ₸</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="drink-card">
+                    <div class="drink-image coffee-two"></div>
+                    <div class="drink-info">
+                        <h3>Латте</h3>
+                        <p>Эспрессо и молочная текстура</p>
+                        <div class="drink-bottom">
+                            <span>1 400 ₸</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="drink-card">
+                    <div class="drink-image coffee-three"></div>
+                    <div class="drink-info">
+                        <h3>Американо</h3>
+                        <p>Насыщенный классический кофе</p>
+                        <div class="drink-bottom">
+                            <span>900 ₸</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="drink-card">
+                    <div class="drink-image coffee-four"></div>
+                    <div class="drink-info">
+                        <h3>Мокачино</h3>
+                        <p>Кофе, молоко и шоколад</p>
+                        <div class="drink-bottom">
+                            <span>1 500 ₸</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="cappuccino-section" id="cappuccino">
+
+            <div class="section-heading">
+                <h2>Идеальный баланс вкуса</h2>
+                <p>Нежная молочная пенка и насыщенный аромат эспрессо.</p>
+            </div>
+
+            <div class="cappuccino-content">
+                <div class="cappuccino-image">
+                    <div class="coffee-circle">
+                        <span>BREW</span>
+                    </div>
+                </div>
+
+                <div class="cappuccino-description">
+                    <span class="section-number">НАШ ВЫБОР</span>
+                    <h2>Капучино</h2>
+                    <p>
+                        Классический кофейный напиток,
+                        созданный для тех, кто ценит
+                        гармонию кофе и молока.
+                    </p>
+                    <div class="cappuccino-price">от 1 200 ₸</div>
+                    <a href="#menu" class="main-button">Посмотреть меню</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer" id="about">
+        <p>© 2026 BREW COFFEE. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
